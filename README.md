@@ -69,6 +69,7 @@ Create service file:
 
 sudo nano /etc/systemd/system/kali-mcp.service
 
+----------------------------------------------
 Add:
 
 [Unit]
@@ -96,6 +97,8 @@ StandardError=journal
 [Install]
 WantedBy=multi-user.target
 
+----------------------------------------------
+
 Enable service:
 
 sudo systemctl daemon-reload
@@ -120,7 +123,7 @@ Clone MCP client repo:
 git clone https://github.com/Wh0am123/MCP-Kali-Server.git
 
 Warp → Settings → MCP Servers → Add
-
+----------------------------------------------
 {
   "kali-mcp": {
     "args": [
@@ -131,6 +134,7 @@ Warp → Settings → MCP Servers → Add
     "command": "python3.11"
   }
 }
+----------------------------------------------
 
 Restart Warp → You should now see 12 MCP Tools.
 
@@ -139,7 +143,7 @@ Restart Warp → You should now see 12 MCP Tools.
 🧩 Architecture Diagram
 
                          ┌───────────────────────────────────┐
-                         │     Host Machine (macOS/Linux)     │
+                         │     Host Machine (macOS/Linux)    │
                          │-------------------------------------│
                          │ Warp / LM Studio / Ollama / MCP CLI │
                          └──────────────────┬──────────────────┘
@@ -187,24 +191,8 @@ Please open an issue for discussions and enhancements.
 
 If this repo helped you, consider starring it on GitHub.
 
----
+⸻
 
-# **3. Delivery Summary**
+⭐ Credit to : https://github.com/Wh0am123/MCP-Kali-Server
 
-You now have:
-
-✔ GitHub-style **banner**  
-✔ Full **README.md** with badges  
-✔ A clean **ASCII architecture diagram**  
-✔ Everything ready for GitHub publishing
-
----
-
-If you want, I can also add:
-
-- A **Mermaid diagram** (GitHub renders it natively)  
-- A **project logo** (PNG/SVG)  
-- A **Podmanfile / Dockerfile** for automated builds  
-- A **demo GIF** showing Warp using MCP tools  
-
-Would you like these added?
+⸻
