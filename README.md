@@ -1,24 +1,3 @@
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Kali%20MCP%20Server%20%7C%20Podman-blue?logo=kalilinux&style=for-the-badge" />
-</p>
-
-<h1 align="center">Kali MCP Tools API Server in Podman</h1>
-
-<p align="center">
-  Run Kali Linux + MCP Security Tools inside Podman and integrate with Warp, LM Studio, and Ollama.
-</p>
-
-
-⸻
-
-2. Full README.md with Badges (GitHub-Optimized)
-
-Below is a fully formatted, production-quality README.md.
-
-⸻
-
-
 <p align="center">
   <img src="https://img.shields.io/badge/Kali%20MCP%20Server%20%7C%20Podman-blue?logo=kalilinux&style=for-the-badge" />
 </p>
