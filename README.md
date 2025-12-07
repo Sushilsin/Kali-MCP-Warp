@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Kali%20MCP%20Server%20%7C%20Podman-blue?logo=kalilinux&style=for-the-badge" />
 </p>
 
-<h1 align="center">Kali MCP Tools API Server in Podman</h1>
+<h1 align="center">Kali MCP Tools API Server in Podman connecting to Warp</h1>
 
 <p align="center">
   Deploy Kali Linux inside Podman and expose 12+ offensive security tools over the Model Context Protocol (MCP).
